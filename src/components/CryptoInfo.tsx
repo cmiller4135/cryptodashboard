@@ -43,6 +43,7 @@ export function CryptoInfo({ crypto, isLoading }: CryptoInfoProps) {
             <DollarSign className="text-green-500" size={24} />
           </div>
           <div>
+          <h1>Moved project from GitHub to GitHub Desktop to VS Code to GitHub commit to Netlify</h1>
             <p className="text-sm text-gray-500 font-medium">Current Price</p>
             <p className="text-2xl font-bold bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent">
               {formatUSD(crypto.market_data.current_price.usd)}
